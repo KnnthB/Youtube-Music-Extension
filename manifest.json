@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Music Extension",
+    "version": "1.0",
+
+    "description": "Adds a browser action icon to the toolbar. Adds skip / play/pause / back to the menu bar.",
+    "homepage_url": "https://github.com/KnnthB/Youtube-Music-Extension",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": 
+        {
+            "default_icon": "icons/border-48.png",
+            "default_title": "YTPlayer.js",
+            "default_popup": "popup/choose_option.html"
+
+        },
+    
+    "web_accessible_resources": [
+        "options/play-pause.jpg",
+        "options/skipfwd.jpg",
+        "options/skipbkwd.jpg"
+    ]
+}
